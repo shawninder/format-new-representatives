@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "Converts a CSV file full of new representatives into a JSON file structured just like the Open North API search results for representatives.",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
   "author": "Shawn Inder <shawninder@gmail.com>",
   "license": "GPL-3.0-or-later",
-  "devDependencies": {
-    "jest": "^24.9.0"
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
